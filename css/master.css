@@ -10,6 +10,10 @@
   background: #fff;
 }
 
+.b-grey{
+  background: #f3f5f9;
+}
+
 .ts-nav{
   height: 60px;
   line-height: 60px;
@@ -82,4 +86,20 @@
   background-image: url("../img/google-logo.png");
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.ts-trust{
+  padding: 40px 0;
+}
+
+.ts-trust h5{
+  margin-bottom: 40px;
+  color: #8791a9;
+  font-weight: bolder;
+}
+
+.ts-trust img{
+  margin: 20px 0;
+  width: 100%;
+  vertical-align: middle;
 }
