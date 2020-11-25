@@ -1,3 +1,11 @@
+.c-white{
+  color: #fff;
+}
+
+.b-white{
+  background: #fff;
+}
+
 .ts-nav{
   height: 60px;
   line-height: 60px;
@@ -29,4 +37,20 @@
   border: 1px solid #036fff;
   padding: 5px;
   border-radius: 5px;
+}
+
+.ts-jumbotron{
+  background-image: url("../img/sfondo-pesci.svg");
+  background-size: cover;
+  background-position: bottom;
+  padding: 30px 0;
+}
+
+.ts-jumbotron .ts-big-span{
+  font-size: 23px;
+}
+
+.ts-get-started{
+  padding: 20px 10px;
+  border-radius: 6px;
 }
