@@ -1,0 +1,32 @@
+.ts-nav{
+  height: 60px;
+  line-height: 60px;
+}
+
+.logo img{
+  height: 20px;
+  vertical-align: middle;
+}
+
+.ts-nav-list ul, .ts-nav-list ul li{
+  display: inline-block;
+}
+
+ .ts-nav-list ul li{
+   padding: 0 5px;
+ }
+
+ .ts-nav-list ul li a{
+  text-decoration: none;
+  color: #253a65;
+ }
+
+.ts-menu i, #ts-sign-up{
+  color: #036fff;
+}
+
+#ts-sign-up{
+  border: 1px solid #036fff;
+  padding: 5px;
+  border-radius: 5px;
+}
