@@ -2,6 +2,10 @@
   color: #fff;
 }
 
+.c-blue{
+  color: #036fff;
+}
+
 .b-white{
   background: #fff;
 }
@@ -29,10 +33,6 @@
   color: #253a65;
  }
 
-.ts-menu i, #ts-sign-up{
-  color: #036fff;
-}
-
 #ts-sign-up{
   border: 1px solid #036fff;
   padding: 5px;
@@ -46,11 +46,40 @@
   padding: 30px 0;
 }
 
+.ts-jumbotron h2{
+  font-size: 30px;
+  font-weight: bolder;
+}
+
 .ts-jumbotron .ts-big-span{
-  font-size: 23px;
+  font-size: 18px;
+  font-weight: bolder;
 }
 
 .ts-get-started{
-  padding: 20px 10px;
+  padding: 20px 0;
   border-radius: 6px;
+}
+
+.ts-get-started span:first-child{
+  color: #253a65;
+}
+
+.ts-get-started input{
+  width: 90%;
+  height: 40px;
+  border-radius: 5px;
+  margin: 2px 0;
+  border: 1px solid #ccc;
+  font-size: 13px;
+}
+
+.ts-btn-blue{
+  background: #579aff;
+}
+
+.ts-btn-google{
+  background-image: url("../img/google-logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
