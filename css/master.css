@@ -103,3 +103,29 @@
   width: 100%;
   vertical-align: middle;
 }
+
+.ts-drop{
+  padding: 30px 0;
+}
+
+.ts-drop img{
+  width: 50%;
+  margin-top: 100px;
+}
+
+.ts-drop .ts-empty{
+  width: 10px;
+  height: 10px;
+  border: 1px solid #036fff;
+  display: inline-block;
+  border-radius: 50%;
+  margin-top: 40px;
+}
+
+.ts-drop .ts-empty:hover{
+  background: #036fff;
+}
+
+.c-dark-blue{
+  color: #253a65;
+}
