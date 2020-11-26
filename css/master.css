@@ -1,3 +1,4 @@
+/* UTILITY */
 .c-white{
   color: #fff;
 }
@@ -17,6 +18,11 @@
 .b-grey{
   background: #f3f5f9;
 }
+
+.m-b-20{
+  margin-bottom: 20px;
+}
+/* /UTILITY */
 
 .ts-nav{
   height: 60px;
@@ -106,6 +112,13 @@
   margin: 20px 0;
   width: 100%;
   vertical-align: middle;
+}
+
+.ts-list-deploy{
+  border-left: 1px solid #ccc;
+  color: #ccc;
+  padding-left: 10px;
+  margin-left: 60px; /*da mettere in media query*/
 }
 
 .ts-drop{
