@@ -8,12 +8,26 @@
 }
 
 .c-dark-blue{
-  color: #253a65;
+  color: #051e50;
 }
 
 .c-light-blue{
   color: #00bacb;
 }
+
+.c-dark-grey{
+  color: #8791a9;
+}
+
+.f-bolder{
+  font-weight: bolder;
+}
+
+.c-light-grey{
+  color:#aebbe2;
+}
+
+
 
 .b-white{
   background: #fff;
@@ -33,6 +47,10 @@
 
 .m-b-20{
   margin-bottom: 20px;
+}
+
+.m-tb-20{
+  margin: 20px 0;
 }
 
 .p-t-20{
@@ -72,14 +90,22 @@
 
  .ts-nav-list ul li a{
   text-decoration: none;
-  color: #253a65;
+  color: #051e50;
  }
 
 #ts-sign-up{
   border: 1px solid #036fff;
   padding: 5px;
   border-radius: 5px;
+  color: #036fff;
 }
+
+
+
+
+
+
+
 
 .ts-jumbotron{
   background-image: url("../img/sfondo-pesci.svg");
@@ -90,22 +116,21 @@
 
 .ts-jumbotron h2{
   font-size: 30px;
-  font-weight: bolder;
 }
 
 .ts-jumbotron .ts-big-span{
   font-size: 18px;
-  font-weight: bolder;
 }
+
+
+
 
 .ts-get-started{
   padding: 20px 0;
   border-radius: 6px;
 }
 
-.ts-get-started span:first-child{
-  color: #253a65;
-}
+
 
 .ts-get-started input{
   width: 90%;
@@ -120,6 +145,9 @@
   background: #579aff;
 }
 
+
+
+
 .ts-btn-google{
   background-image: url("../img/google-logo.png");
   background-size: contain;
@@ -132,8 +160,6 @@
 
 .ts-trust h5{
   margin-bottom: 40px;
-  color: #8791a9;
-  font-weight: bolder;
 }
 
 .ts-trust img{
@@ -144,7 +170,6 @@
 
 .ts-list-deploy{
   border-left: 1px solid #ccc;
-  color: #ccc;
   padding-left: 10px;
   margin-left: 60px; /*da mettere in media query*/
 }
@@ -164,7 +189,6 @@
   border: 1px solid #036fff;
   display: inline-block;
   border-radius: 50%;
-  margin-top: 40px;
 }
 
 .ts-empty:hover{
@@ -180,7 +204,7 @@
 }
 
 .ts-rocker-box img{
-  width: 100%;
+  width: 50%;
 }
 
 
