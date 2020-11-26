@@ -10,12 +10,16 @@
     <title>Digitalocean</title>
   </head>
   <body>
+
+    <!-- TO DO: controllare margin, padding e classi utility;
+    rifinire alcune sezioni; fare domade. -->
+
     <div class="container-fluid">
-      <!-- Navbar -->
+      <!-- Navbar ok -->
       <nav class="ts-nav">
         <div class="container">
           <div class="row">
-            <div class="logo col-xs-2">
+            <div class="col-xs-2 logo">
               <a href="#"><img src="img/digital-ocean-logo.png" alt=""></a>
             </div>
             <div class="ts-nav-list text-right">
@@ -32,7 +36,7 @@
                 <li><a href="#" id="ts-sign-up" class="c-blue">Sign Up</a></li>
               </ul>
             </div>
-            <div class="c-blue col-xs-2 col-xs-offset-8 text-right visible-xs-block visible-sm-block">
+            <div class="col-xs-2 col-xs-offset-8 visible-xs-block visible-sm-block c-blue text-right">
               <i class="fa fa-bars fa-lg"></i>
             </div>
           </div>
@@ -40,8 +44,8 @@
       </nav>
       <!-- /Navbar -->
 
-      <!-- Jumbotron -->
-      <div class="ts-jumbotron row">
+      <!-- Jumbotron row-p-->
+      <div class="row p-tb-40 ts-jumbotron">
         <div class="container">
           <div class="row">
             <div class="col-xs-10 col-sm-8 col-md-7 col-xs-offset-1 col-sm-offset-0 c-white">
@@ -49,9 +53,9 @@
               <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and business, whether you're running one virtual machine or ten thousand.</p>
             </div>
             <div class="col-xs-8 col-sm-4 col-md-5 col-xs-offset-2 col-sm-offset-0 text-center">
-              <div class="ts-get-started b-white">
-                <span class="ts-big-span f-bolder c-dark-blue">Deploy your app in seconds.</span> <br>
-                <span class="ts-big-span f-bolder c-blue">Get started now.</span> <br>
+              <div class="ts-get-started p-tb-20 b-white">
+                <span class="f-bolder c-dark-blue">Deploy your app in seconds.</span> <br>
+                <span class="f-bolder c-blue">Get started now.</span> <br>
                 <input type="text" name="email" placeholder="Email"> <br>
                 <input type="text" name="password" placeholder="Password"> <br>
                 <input class="btn btn-default ts-btn-blue c-white" type="button" value="Create your account"><br>
@@ -64,30 +68,30 @@
       </div>
       <!-- /Jumbotron -->
 
-      <!-- Trust Section -->
-      <div class="row ts-trust text-center b-grey">
+      <!-- Trust Section row-p-->
+      <div class="row p-tb-40 ts-trust text-center b-grey">
         <div class="container">
           <div class="row">
-            <h5 class="c-dark-grey f-bolder">INNOVATIVE BUSINESS TRUST DIGITALOCEAN</h5>
+            <h5 class="c-dark-grey f-bolder m-b-40">INNOVATIVE BUSINESS TRUST DIGITALOCEAN</h5>
           </div>
           <div class="row">
             <div class="col-xs-6 col-sm-2">
-              <img src="img/docker.png" alt="">
+              <img src="img/docker.png" alt="" class="m-tb-20">
             </div>
             <div class="col-xs-6 col-sm-2">
-              <img src="img/gitlab.png" alt="">
+              <img src="img/gitlab.png" alt="" class="m-tb-20">
             </div>
             <div class="col-xs-6 col-sm-2">
-              <img src="img/slack.png" alt="">
+              <img src="img/slack.png" alt="" class="m-tb-20">
             </div>
             <div class="col-xs-6 col-sm-2">
-              <img src="img/hashicorp.png" alt="">
+              <img src="img/hashicorp.png" alt="" class="m-tb-20">
             </div>
             <div class="col-xs-6 col-sm-2">
-              <img src="img/hashicorp.png" alt="">
+              <img src="img/hashicorp.png" alt="" class="m-tb-20">
             </div>
             <div class="col-xs-6 col-sm-2">
-              <img src="img/splunk.webp" alt="">
+              <img src="img/splunk.webp" alt="" class="m-tb-20">
             </div>
           </div>
           <div class="row">
@@ -97,7 +101,7 @@
       </div>
       <!-- /Trust Section -->
 
-      <!-- Deploy Section -->
+      <!-- Deploy Section ok-->
       <div class="row">
         <div class="container">
           <h2 class="text-center c-dark-blue f-bolder">Deploy and scale seamlessly</h2>
@@ -137,13 +141,13 @@
       </div>
       <!-- /Deploy Section -->
 
-      <!-- Designed for developers Section -->
-      <div class="row b-grey text-center ts-drop">
+      <!-- Designed for developers Section row-p-->
+      <div class="row p-tb-40 b-grey text-center ts-drop">
         <div class="container">
           <h3 class="c-dark-blue f-bolder">Designed for developers</h3>
           <p class="c-dark-grey f-bolder">Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
           <div class="ts-droplets-img">
-            <img src="img/droplets.jpg" alt="" class="m-b-20">
+            <img src="img/droplets.jpg" alt="" class="m-b-20 m-t-40">
           </div>
           <span class="c-dark-blue">Create compute servers in 55 seconds or less.</span><br>
           <div class="ts-empty m-tb-20"></div>
@@ -154,7 +158,7 @@
       </div>
       <!-- /Designed for developers Section -->
 
-      <!-- Features Section -->
+      <!-- Features Section ok-->
       <div class="row">
         <h3 class="text-center c-dark-blue f-bolder">The features your business needs</h3>
         <div class="container">
@@ -182,155 +186,140 @@
       </div>
       <!-- /Features Section -->
 
-      <!-- Service your customers -->
-      <div class="row bgradient-blue p-b-20 c-white">
+      <!-- Service your customers row-p-more-than-one-->
+      <div class="row p-b-20 bgradient-blue c-white">
         <div class="container">
           <h2 class="text-center">Service your customers around the world from 12 regions.</h2>
           <div class="row">
             <div class="col-xs12 col-md-6 p-b-20">
-              <div class="row p-tb-10 b-b-white">
+              <div class="row p-tb-10 b-b-white"> <!--row-p-->
                 <div class="col-xs-1">
                   AMS2
                 </div>
-                <div class="c-light-grey col-xs-4 col-xs-offset-1">
+                <div class="col-xs-4 col-xs-offset-1 c-light-grey">
                   Amsterdam, Netherlands
                 </div>
                 <div class="col-xs-3 col-xs-offset-3">
                   <a href="#" class="c-light-blue">Test speed ></a>
                 </div>
               </div>
-
-              <div class="row p-tb-10 b-b-white">
+              <div class="row p-tb-10 b-b-white"> <!--row-p-->
                 <div class="col-xs-1">
                   AMS3
                 </div>
-                <div class="c-light-grey col-xs-4 col-xs-offset-1">
+                <div class="col-xs-4 col-xs-offset-1 c-light-grey">
                   Amsterdam, Netherlands
                 </div>
                 <div class="col-xs-3 col-xs-offset-3">
                   <a href="#" class="c-light-blue">Test speed ></a>
                 </div>
               </div>
-
-              <div class="row p-tb-10 b-b-white">
+              <div class="row p-tb-10 b-b-white"> <!--row-p-->
                 <div class="col-xs-1">
                   BLR1
                 </div>
-                <div class="c-light-grey col-xs-4 col-xs-offset-1">
+                <div class="col-xs-4 col-xs-offset-1 c-light-grey">
                   Bangalore, India
                 </div>
                 <div class="col-xs-3 col-xs-offset-3">
                   <a href="#" class="c-light-blue">Test speed ></a>
                 </div>
               </div>
-
-              <div class="row p-tb-10 b-b-white">
+              <div class="row p-tb-10 b-b-white"> <!--row-p-->
                 <div class="col-xs-1">
                   FRA1
                 </div>
-                <div class="c-light-grey col-xs-4 col-xs-offset-1">
+                <div class="col-xs-4 col-xs-offset-1 c-light-grey">
                   Frankfurt, German
                 </div>
                 <div class="col-xs-3 col-xs-offset-3">
                   <a href="#" class="c-light-blue">Test speed ></a>
                 </div>
               </div>
-
-              <div class="row p-tb-10 b-b-white">
+              <div class="row p-tb-10 b-b-white"> <!--row-p-->
                 <div class="col-xs-1">
                   LON1
                 </div>
-                <div class="c-light-grey col-xs-4 col-xs-offset-1">
+                <div class="col-xs-4 col-xs-offset-1 c-light-grey">
                   London, UK
                 </div>
                 <div class="col-xs-3 col-xs-offset-3">
                   <a href="#" class="c-light-blue">Test speed ></a>
                 </div>
               </div>
-
-              <div class="row p-tb-10 b-b-white">
+              <div class="row p-tb-10 b-b-white"> <!--row-p-->
                 <div class="col-xs-1">
                   NYC1
                 </div>
-                <div class="c-light-grey col-xs-4 col-xs-offset-1">
+                <div class="col-xs-4 col-xs-offset-1 c-light-grey">
                   New York, USA
                 </div>
                 <div class="col-xs-3 col-xs-offset-3">
                   <a href="#" class="c-light-blue">Test speed ></a>
                 </div>
               </div>
-
             </div>
-
-
-
-
             <div class="col-xs12 col-md-6">
-              <div class="row p-tb-10 b-b-white">
+              <div class="row p-tb-10 b-b-white"> <!--row-p-->
                 <div class="col-xs-1">
                   AMS2
                 </div>
-                <div class="c-light-grey col-xs-4 col-xs-offset-1">
+                <div class="col-xs-4 col-xs-offset-1 c-light-grey">
                   Amsterdam, Netherlands
                 </div>
                 <div class="col-xs-3 col-xs-offset-3">
                   <a href="#" class="c-light-blue">Test speed ></a>
                 </div>
               </div>
-
-              <div class="row p-tb-10 b-b-white">
+              <div class="row p-tb-10 b-b-white"> <!--row-p-->
                 <div class="col-xs-1">
                   AMS3
                 </div>
-                <div class="c-light-grey col-xs-4 col-xs-offset-1">
+                <div class="col-xs-4 col-xs-offset-1 c-light-grey">
                   Amsterdam, Netherlands
                 </div>
                 <div class="col-xs-3 col-xs-offset-3">
                   <a href="#" class="c-light-blue">Test speed ></a>
                 </div>
               </div>
-
-              <div class="row p-tb-10 b-b-white">
+              <div class="row p-tb-10 b-b-white"> <!--row-p-->
                 <div class="col-xs-1">
                   BLR1
                 </div>
-                <div class="c-light-grey col-xs-4 col-xs-offset-1">
+                <div class="col-xs-4 col-xs-offset-1 c-light-grey">
                   Bangalore, India
                 </div>
                 <div class="col-xs-3 col-xs-offset-3">
                   <a href="#" class="c-light-blue">Test speed ></a>
                 </div>
               </div>
-
-              <div class="row p-tb-10 b-b-white">
+              <div class="row p-tb-10 b-b-white"> <!--row-p-->
                 <div class="col-xs-1">
                   FRA1
                 </div>
-                <div class="c-light-grey col-xs-4 col-xs-offset-1">
+                <div class="col-xs-4 col-xs-offset-1 c-light-grey">
                   Frankfurt, German
                 </div>
                 <div class="col-xs-3 col-xs-offset-3">
                   <a href="#" class="c-light-blue">Test speed ></a>
                 </div>
               </div>
-
-              <div class="row p-tb-10 b-b-white">
+              <div class="row p-tb-10 b-b-white"> <!--row-p-->
                 <div class="col-xs-1">
                   LON1
                 </div>
-                <div class="c-light-grey col-xs-4 col-xs-offset-1">
+                <div class="col-xs-4 col-xs-offset-1 c-light-grey">
                   London, UK
                 </div>
                 <div class="col-xs-3 col-xs-offset-3">
                   <a href="#" class="c-light-blue">Test speed ></a>
                 </div>
               </div>
-
-              <div class="row p-tb-10 b-b-white">
+              <div class="row p-tb-10 b-b-white"> <!--row-p-->
                 <div class="col-xs-1">
                   NYC1
                 </div>
-                <div class="c-light-grey col-xs-4 col-xs-offset-1">
+                <div class="col-xs-4 col-xs-offset-1 c-light-grey">
                   New York, USA
                 </div>
                 <div class="col-xs-3 col-xs-offset-3">
@@ -344,12 +333,12 @@
       <!-- /Service your customers -->
 
 
-      <!-- Development teams section -->
+      <!-- Development teams section col-p-->
       <div class="row b-grey text-center">
         <div class="container">
           <div class="row ts-rocker-box">
             <h4 class="c-dark-blue f-bolder">Development teams love DigitalOcean</h4>
-            <div class="col-xs-6 col-xs-offset-3 b-white p-t-20 p-b-20">
+            <div class="col-xs-6 col-xs-offset-3 b-white p-tb-20"> <!--col-p-->
               <img src="img/rockerbox.png" alt="" class="m-tb-20">
               <p class="c-dark-grey">"We have been able to make scaling the technical infrastructure of our business cost effective and efficient."</p>
               <div class="c-dark-blue "><strong>Rick O'Toole</strong> <br> Co-founder and CTO</div><br>
@@ -365,15 +354,15 @@
       </div>
       <!-- /Development teams section -->
 
-      <!-- Get started section -->
-      <div class="row c-white text-center bgradient-blue p-b-20 f-bolder">
+      <!-- Get started section row-p-->
+      <div class="row p-b-20 c-white text-center bgradient-blue f-bolder">
         <h3>Get started now.</h3>
         <input class="btn btn-default c-blue b-white" type="button" value="Create your account">
       </div>
       <!-- /Get started section -->
 
-      <!-- Footer -->
-      <div class="row b-blue p-t-20 p-b-20">
+      <!-- Footer row-p-->
+      <div class="row p-tb-20 b-blue">
         <div class="container">
           <div class="row">
             <div class="col-xs-12 col-sm-5 c-dark-grey">
