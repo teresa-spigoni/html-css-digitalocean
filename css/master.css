@@ -19,8 +19,24 @@
   background: #f3f5f9;
 }
 
+.b-blue{
+  background: #031c4e;
+}
+
+.bgradient-blue{
+  background-image: linear-gradient(#0041ba, #00209b);
+}
+
 .m-b-20{
   margin-bottom: 20px;
+}
+
+.p-t-20{
+  padding-top: 20px;
+}
+
+.p-b-20{
+  padding-bottom: 20px;
 }
 /* /UTILITY */
 
@@ -130,7 +146,7 @@
   margin-top: 100px;
 }
 
-.ts-drop .ts-empty{
+.ts-empty{
   width: 10px;
   height: 10px;
   border: 1px solid #036fff;
@@ -139,7 +155,7 @@
   margin-top: 40px;
 }
 
-.ts-drop .ts-empty:hover{
+.ts-empty:hover{
   background: #036fff;
 }
 
@@ -149,6 +165,10 @@
 
 .ts-droplets-img::before{
   content: "<";
+}
+
+.ts-rocker-box img{
+  width: 100%;
 }
 
 
