@@ -11,6 +11,10 @@
   color: #253a65;
 }
 
+.c-light-blue{
+  color: #00bacb;
+}
+
 .b-white{
   background: #fff;
 }
@@ -37,6 +41,14 @@
 
 .p-b-20{
   padding-bottom: 20px;
+}
+
+.p-tb-10{
+  padding: 10px 0;
+}
+
+.b-b-white{
+  border-bottom: 1px solid white;
 }
 /* /UTILITY */
 
