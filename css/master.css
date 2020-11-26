@@ -137,3 +137,22 @@
 .ts-droplets-img::before{
   content: "<";
 }
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERY TABLET */
+
+@media screen and (min-width: 768px) {
+  .ts-box{
+    min-height: 200px;
+  }
+}
+/* /MEDIA QUERY TABLET */
