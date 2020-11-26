@@ -6,6 +6,10 @@
   color: #036fff;
 }
 
+.c-dark-blue{
+  color: #253a65;
+}
+
 .b-white{
   background: #fff;
 }
@@ -126,6 +130,10 @@
   background: #036fff;
 }
 
-.c-dark-blue{
-  color: #253a65;
+.ts-droplets-img::after{
+  content: ">";
+}
+
+.ts-droplets-img::before{
+  content: "<";
 }
