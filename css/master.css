@@ -1,142 +1,144 @@
 /* UTILITY */
-.utility{
-  .c-white{
-    color: #fff;
-  }
-
-  .c-light-grey{
-    color:#aebbe2;
-  }
-
-  .c-dark-grey{
-    color: #8791a9;
-  }
-
-  .c-light-blue{
-    color: #00bacb;
-  }
-
-  .c-blue{
-    color: #036fff;
-  }
-
-  .c-dark-blue{
-    color: #051e50;
-  }
-
-  .b-white{
-    background: #fff;
-  }
-
-  .b-grey{
-    background: #f3f5f9;
-  }
-
-  .ts-btn-blue{
-    background: #579aff;
-  }
-
-  .bgradient-blue{
-    background-image: linear-gradient(#0041ba, #00209b);
-  }
-
-  .b-blue{
-    background: #031c4e;
-  }
-
-  .f-bolder{
-    font-weight: bolder;
-  }
-
-  .m-t-10{
-    margin-top: 10px;
-  }
-
-  .m-b-10{
-    margin-bottom: 10px
-  }
-
-  .m-tb-10{
-    margin: 10px 0;
-  }
-
-  .m-t-20{
-    margin-top: 20px;
-  }
-
-  .m-b-20{
-    margin-bottom: 20px;
-  }
-
-  .m-tb-20{
-    margin: 20px 0;
-  }
-
-  .m-t-40{
-    margin-top: 40px;
-  }
-
-  .m-b-40{
-    margin-bottom: 40px;
-  }
-
-  .m-tb-40{
-    margin: 40px 0;
-  }
-
-  .p-t-10{
-    padding-top: 10px;
-  }
-
-  .p-b-10{
-    padding-bottom: 10px;
-  }
-
-  .p-tb-10{
-    padding: 10px 0;
-  }
-
-  .p-t-20{
-    padding-top: 20px;
-  }
-
-  .p-b-20{
-    padding-bottom: 20px;
-  }
-
-  .p-tb-20{
-    padding: 20px 0;
-  }
-
-  .p-t-40{
-    padding-top: 40px;
-  }
-
-  .p-b-40{
-    padding-bottom: 40px;
-  }
-
-  .p-tb-40{
-    padding: 40px 0;
-  }
-
-  .b-b-white{
-    border-bottom: 1px solid white;
-  }
-
-  .ts-empty{
-    width: 10px;
-    height: 10px;
-    border: 1px solid #036fff;
-    display: inline-block;
-    border-radius: 50%;
-  }
-
-  .ts-empty:hover{
-    background: #036fff;
-  }
+.c-white{
+  color: #fff;
 }
-/* /UTILITY */ /*So che non si fa ma volevo chiudere le utility*/
+
+.c-light-grey{
+  color:#aebbe2;
+}
+
+.c-dark-grey{
+  color: #8791a9;
+}
+
+.c-light-blue{
+  color: #00bacb;
+}
+
+.c-blue{
+  color: #036fff;
+}
+
+.c-dark-blue{
+  color: #051e50;
+}
+
+.b-white{
+  background: #fff;
+}
+
+.b-grey{
+  background: #f3f5f9;
+}
+
+.ts-btn-blue{
+  background: #579aff;
+}
+
+.bgradient-blue{
+  background-image: linear-gradient(#0041ba, #00209b);
+}
+
+.b-blue{
+  background: #031c4e;
+}
+
+.f-bolder{
+  font-weight: bolder;
+}
+
+.m-t-10{
+  margin-top: 10px;
+}
+
+.m-b-10{
+  margin-bottom: 10px
+}
+
+.m-tb-10{
+  margin: 10px 0;
+}
+
+.m-t-20{
+  margin-top: 20px;
+}
+
+.m-b-20{
+  margin-bottom: 20px;
+}
+
+.m-tb-20{
+  margin: 20px 0;
+}
+
+.m-t-40{
+  margin-top: 40px;
+}
+
+.m-b-40{
+  margin-bottom: 40px;
+}
+
+.m-tb-40{
+  margin: 40px 0;
+}
+
+.p-t-10{
+  padding-top: 10px;
+}
+
+.p-b-10{
+  padding-bottom: 10px;
+}
+
+.p-tb-10{
+  padding: 10px 0;
+}
+
+.p-t-20{
+  padding-top: 20px;
+}
+
+.p-b-20{
+  padding-bottom: 20px;
+}
+
+.p-tb-20{
+  padding: 20px 0;
+}
+
+.p-t-40{
+  padding-top: 40px;
+}
+
+.p-b-40{
+  padding-bottom: 40px;
+}
+
+.p-tb-40{
+  padding: 40px 0;
+}
+
+.b-b-white{
+  border-bottom: 1px solid white;
+}
+
+.ts-empty{
+  width: 10px;
+  height: 10px;
+  border: 1px solid #036fff;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.ts-empty:hover{
+  background: #036fff;
+}
+
+.ts-container{
+  padding: 10px;
+}
+/* /UTILITY */
 
 
 .ts-nav{
