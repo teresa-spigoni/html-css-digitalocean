@@ -3,6 +3,10 @@
   color: #fff;
 }
 
+.c-grey-blue{
+  color: #bbcdff;
+}
+
 .c-light-grey{
   color:#aebbe2;
 }
@@ -119,6 +123,10 @@
   padding: 40px 0;
 }
 
+.f-18{
+  font-size: 18px;
+}
+
 .b-b-white{
   border-bottom: 1px solid white;
 }
@@ -195,6 +203,10 @@
   font-size: 30px;
 }
 
+.ts-get-started span:first-child, .ts-get-started .ts-gst{
+  font-size: 20px;
+}
+
 .ts-jumbotron .ts-big-span{
   font-size: 18px;
 }
@@ -218,9 +230,19 @@
   background-repeat: no-repeat;
 }
 
+.ts-terms:hover{
+  color: #00b300;
+}
+
+
 .ts-trust img{
   width: 100%;
   vertical-align: middle;
+}
+
+.ts-list-deploy{
+  border-left: 1px solid #ccc;
+  padding-left: 10px;
 }
 
 .ts-drop img{
@@ -231,23 +253,33 @@
   width: 70%;
 }
 
-
-
-.ts-list-deploy{
-  border-left: 1px solid #ccc;
-  padding-left: 10px;
-  margin-left: 60px; /*da mettere in media query*/
+.ts-footer i{
+  padding: 10px 5px;
+  font-size: 20px;
 }
+
 /* MEDIA QUERY SM*/
 @media screen and (min-width: 768px) {
+  .ts-jumbotron h2{
+    font-size: 40px;
+  }
   .ts-box{
     min-height: 200px;
   }
+  .ts-list-deploy{
+    margin-left: 60px;
+  }
 }
-/* /MEDIA QUERY SM*/
 
 /* MEDIA QUERY MD */
 @media screen and (min-width: 992px){
-
+  .ts-jumbotron h2{
+    font-size: 65px;
+  }
+  .ts-get-started span:first-child, .ts-get-started .ts-gst{
+    font-size: 25px;
+  }
+  .ts-carousel{
+    width: 500px;
+  }
 }
-/*/ MEDIA QUERY MD */
