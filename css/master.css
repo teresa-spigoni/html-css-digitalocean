@@ -138,6 +138,20 @@
 .ts-container{
   padding: 10px;
 }
+
+.ts-carousel{
+  width: 300px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.ts-chevron{
+  font-size: 25px;
+}
+
+.ts-chevron:hover{
+  color: #036fff;
+}
 /* /UTILITY */
 
 
@@ -214,9 +228,8 @@
 }
 
 .ts-rocker-box img{
-  width: 50%;
+  width: 70%;
 }
-
 
 
 
