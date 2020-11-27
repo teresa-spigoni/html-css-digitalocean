@@ -234,7 +234,6 @@
   color: #00b300;
 }
 
-
 .ts-trust img{
   width: 100%;
   vertical-align: middle;
@@ -253,11 +252,29 @@
   width: 70%;
 }
 
+.ts-footer{
+  position: relative;
+}
+
 .ts-footer i{
   padding: 10px 5px;
   font-size: 20px;
 }
 
+.shark{
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.balloon {
+  display: inline-block;
+  width: 280px;
+  padding: 7px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-right: 30px;
+}
 /* MEDIA QUERY SM*/
 @media screen and (min-width: 768px) {
   .ts-jumbotron h2{
@@ -268,6 +285,11 @@
   }
   .ts-list-deploy{
     margin-left: 60px;
+  }
+  .shark{
+    position: absolute;
+    bottom: 30px;
+    left: 30px
   }
 }
 
@@ -281,5 +303,10 @@
   }
   .ts-carousel{
     width: 500px;
+  }
+  .shark{
+    position: absolute;
+    bottom: 30px;
+    right: 0px;
   }
 }
